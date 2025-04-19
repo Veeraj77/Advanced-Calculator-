@@ -75,3 +75,9 @@ public class Main
                         System.out.println("Result: " + calculator.cube());
                         break;
 
+                    case 7:
+                        // Case for Square Root of num1
+                        System.out.println("Result: " + calculator.sqrt());
+                        break;
+                }
+            }
