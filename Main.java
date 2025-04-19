@@ -44,3 +44,8 @@ public class Main
                 Calculator calculator = new Calculator();
 
                 switch (choice)
+                    case 1:
+                        // Case for Addition of two numbers
+                        System.out.println("Result: " + calculator.addition());
+                        break;
+
