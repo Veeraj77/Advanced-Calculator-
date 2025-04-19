@@ -29,3 +29,16 @@ public class Main
                 int choice = scan.nextInt();
 
                 // Exit condition
+                if (choice == 8)
+                {
+                    System.out.println("Exiting calculator... Goodbye!");
+                    break;
+                }
+                // If input is outside 1–7, throw exception
+                else if (choice < 1 || choice > 7)
+                {
+                    throw new InvalidInputException("Invalid choice! Please enter a number between 1 and 7.");
+                }
+
+                // New Calculator object
+                Calculator calculator = new Calculator();
