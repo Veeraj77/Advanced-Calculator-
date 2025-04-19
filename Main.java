@@ -42,3 +42,5 @@ public class Main
 
                 // New Calculator object
                 Calculator calculator = new Calculator();
+
+                switch (choice)
